@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    height: 120px;
+    height: 130px;
     display: flex;
     flex-direction: column;
     background-color: silver;
@@ -19,6 +19,32 @@
 }
 .navbar-bottom {
     flex: 1;
+ 
+}
+.navbar-bottom  ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    gap: 30px;
+
+    
+   
+  
+}
+.navbar-bottom  ul li {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.navbar-bottom  ul li:hover {
+    background-color: blue;
+    padding: 8px 15px;
+ 
+
 }
 .navbar-top SVG {
     font-size: 40px;
